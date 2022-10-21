@@ -1,0 +1,108 @@
+.main_cont {
+  display: flex;
+}
+
+.concon {
+  border: 1px solid #000;
+  width: 40px;
+  height: 40px;
+}
+
+.right {
+  width: 95%;
+  height: 60%;
+  /* border-bottom: 2px solid #e8ebef; */
+  border-width: 40%;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+  flex-wrap: wrap;
+}
+
+.new_user_details {
+  width: 70%;
+  height: 400px;
+}
+
+.profile_pic {
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_pic label {
+  cursor: pointer;
+  border: 2px solid #7a7a7a;
+  border-radius: 2px;
+  width: 100%;
+  height: 3rem;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8ebef;
+}
+.profile_pic label:hover {
+  background-color: #d1d5d9;
+}
+#upload-pic {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.right h2 {
+  width: 100%;
+  border-bottom: 2px solid #ececec;
+  font-size: 1.9rem;
+  /* margin-bottom: 2rem; */
+}
+.user_inputs {
+  padding: 2rem 0;
+  height: 99%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  width: 16rem;
+}
+.radio .input_wrapper {
+  width: 20px;
+}
+
+.upload_img_cont {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border: 2px solid #606060;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
+  background-image: url("https://i.ibb.co/CmnDndy/image-line-2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.upload_img_cont img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.action_buttons {
+  border-top: 2px solid #e8ebef;
+  width: 100%;
+  padding-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+.action_buttons input {
+  margin-right: 1rem;
+}

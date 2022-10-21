@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+  border: 2px solid #ebebeb;
+  /* padding: ; */
+}
+.table ul:nth-child(even) {
+  background-color: #ebebeb;
+}
+
+.table ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.table ul li {
+  width: 20%;
+}
+
+.table ul li:last-child {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}

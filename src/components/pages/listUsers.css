@@ -1,0 +1,31 @@
+
+.arrange{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.search{
+    width: 70%;
+    margin: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.search h1 {
+    margin-bottom: 2rem;
+    
+}
+
+.search_bars {
+    display: flex;
+    margin-bottom: 2rem;
+    height: 7rem;
+    border-bottom: 2px solid #eee;
+}
+.search_bars > input {
+    
+    margin-right: 2rem;
+}
+.search_bars .input_wrapper {
+    margin-right: 2rem;
+}

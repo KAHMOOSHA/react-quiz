@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+
+/* color palete :
+  #e8ebef
+  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 300;
+  color: #606060;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+input[type= radio]{
+  width: 15px;
+  height: 15px;
+  accent-color: black
+}
+
+
+input[type= button]:hover{
+ cursor: pointer;
+ opacity: 0.8;
+}
